@@ -17,6 +17,15 @@ Download the current Wikipedia dumps:
 Collect data:
     
     ./gather_wordfreq.py dumps.wikimedia.org/enwiki/20150602/*.bz2 > wordfreq.txt
+    
+    
+## Bulk processing (03/24/2018)
+
+Download English, Spanish, French and Italian data.
+
+```shell
+zsh ./run.sh 20180320
+```
 
 # Results
 
